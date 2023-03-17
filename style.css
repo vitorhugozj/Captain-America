@@ -1,0 +1,79 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    background-image: url(./img/kk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    margin-left: 100px;
+}
+
+.img__logo{
+    width: 50%;
+    margin-top: -4%;
+}
+
+header{
+    display: flex;
+    gap: 16px;
+    color: white;
+    margin-top: 50px;
+    justify-content: center;
+    font-family: Quicksand;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    height: 400px;
+}
+
+p{
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: Quicksand;
+    width: 500px;
+    color: rgb(255, 255, 255);
+
+}
+/* .info-text{
+    text-align: center;
+    color: black;
+} */
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 10px;
+}  
+
+.logo-container a img{
+    width: 15%;
+    align-items: center;
+}  
+
+
+.v1{
+    align-items: end;
+    padding-right: 30px;
+    width: 20%;
+}
+
+.v2{
+    padding-right: 30px;
+    width: 20%;
+}
+
+.v3{
+    padding-right: 30px;
+    width: 20%;
+}
